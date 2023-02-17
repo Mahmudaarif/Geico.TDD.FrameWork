@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test1<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //span[text()='Log In']//parent::a]----->has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //div[text()='Access Your Policy']]----->has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@id='manageSubmit'])[1]'----->has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Mahmuda<---This value has been passed into--->[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //input[@id='TextInputComponent-2']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[3412<---This value has been passed into--->[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //input[@id='TextInputComponent-2']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-17T16:41:07 EST" name="Suite" finished-at="2023-02-17T16:41:21 EST" duration-ms="13769">
+    <groups>
+      <group name="non-func">
+        <method signature="AutoQuoteTest.test1()[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" name="test1" class="geico.tdd.test.auto.AutoQuoteTest"/>
+      </group> <!-- non-func -->
+      <group name="auto">
+        <method signature="AutoQuoteTest.test1()[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" name="test1" class="geico.tdd.test.auto.AutoQuoteTest"/>
+      </group> <!-- auto -->
+      <group name="non-functional">
+        <method signature="LoginPageTest.loginTest()[pri:1, instance:geico.tdd.test.auto.LoginPageTest@537f60bf]" name="loginTest" class="geico.tdd.test.auto.LoginPageTest"/>
+      </group> <!-- non-functional -->
+      <group name="login">
+        <method signature="LoginPageTest.loginTest()[pri:1, instance:geico.tdd.test.auto.LoginPageTest@537f60bf]" name="loginTest" class="geico.tdd.test.auto.LoginPageTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2023-02-17T16:41:07 EST" name="Test" finished-at="2023-02-17T16:41:21 EST" duration-ms="13769">
+      <class name="geico.tdd.test.auto.AutoQuoteTest">
+        <test-method is-config="true" signature="initExtentReport()[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" started-at="2023-02-17T16:41:07 EST" name="initExtentReport" finished-at="2023-02-17T16:41:07 EST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtentReport -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" started-at="2023-02-17T16:41:07 EST" name="startExtentReport" finished-at="2023-02-17T16:41:07 EST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geico.tdd.test.auto.AutoQuoteTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" started-at="2023-02-17T16:41:07 EST" name="setUpDriver" finished-at="2023-02-17T16:41:12 EST" duration-ms="4062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="test1()[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" started-at="2023-02-17T16:41:12 EST" name="test1" finished-at="2023-02-17T16:41:12 EST" depends-on-methods="test" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test1<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" started-at="2023-02-17T16:41:12 EST" name="getResult" finished-at="2023-02-17T16:41:12 EST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=AutoQuoteTest.test1()[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836] output=Test1<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void geico.tdd.test.auto.AutoQuoteTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" started-at="2023-02-17T16:41:12 EST" name="tearUp" finished-at="2023-02-17T16:41:12 EST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:geico.tdd.test.auto.AutoQuoteTest@242b836]" started-at="2023-02-17T16:41:21 EST" name="closeReport" finished-at="2023-02-17T16:41:22 EST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- geico.tdd.test.auto.AutoQuoteTest -->
+      <class name="geico.tdd.test.auto.LoginPageTest">
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:geico.tdd.test.auto.LoginPageTest@537f60bf]" started-at="2023-02-17T16:41:12 EST" name="setUpDriver" finished-at="2023-02-17T16:41:14 EST" duration-ms="2108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:geico.tdd.test.auto.LoginPageTest@537f60bf]" started-at="2023-02-17T16:41:12 EST" name="startExtentReport" finished-at="2023-02-17T16:41:12 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geico.tdd.test.auto.LoginPageTest.loginTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method signature="loginTest()[pri:1, instance:geico.tdd.test.auto.LoginPageTest@537f60bf]" started-at="2023-02-17T16:41:14 EST" name="loginTest" finished-at="2023-02-17T16:41:21 EST" duration-ms="7152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //span[text()='Log In']//parent::a]----->has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //div[text()='Access Your Policy']]----->has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@id='manageSubmit'])[1]'----->has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Mahmuda<---This value has been passed into--->[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //input[@id='TextInputComponent-2']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[3412<---This value has been passed into--->[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //input[@id='TextInputComponent-2']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:geico.tdd.test.auto.LoginPageTest@537f60bf]" started-at="2023-02-17T16:41:21 EST" name="getResult" finished-at="2023-02-17T16:41:21 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:1, instance:geico.tdd.test.auto.LoginPageTest@537f60bf] output=[[ChromeDriver: chrome on WINDOWS (c532c2650a8646bcba34f418b0ec21fd)] -> xpath: //span[text()='Log In']//parent::a]----->has been clicked<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void geico.tdd.test.auto.LoginPageTest.loginTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:geico.tdd.test.auto.LoginPageTest@537f60bf]" started-at="2023-02-17T16:41:21 EST" name="tearUp" finished-at="2023-02-17T16:41:21 EST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- geico.tdd.test.auto.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
