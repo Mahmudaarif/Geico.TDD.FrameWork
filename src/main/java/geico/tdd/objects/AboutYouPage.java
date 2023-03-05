@@ -1,4 +1,4 @@
-package Pages;
+package geico.tdd.objects;
 
 import static geico.tdd.common.CommonActions.*;
 import org.openqa.selenium.WebDriver;

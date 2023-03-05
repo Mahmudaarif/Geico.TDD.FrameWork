@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="safari(failed)">
-    <parameter name="browser" value="safari"/>
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="geico.tdd.retry.AnnotationTransform"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="geico.tdd.test.auto.AutoQuoteTest">
+      <class name="geico.tdd.test.auto.LoginPageTest">
         <methods>
           <include name="tearUp"/>
           <include name="setUpDriver"/>
-          <include name="test1"/>
+          <include name="loginTest"/>
+          <include name="closeReport"/>
+          <include name="getResult"/>
+          <include name="startExtentReport"/>
+          <include name="initExtentReport"/>
         </methods>
-      </class> <!-- geico.tdd.test.auto.AutoQuoteTest -->
+      </class> <!-- geico.tdd.test.auto.LoginPageTest -->
     </classes>
-  </test> <!-- safari(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -19,10 +19,8 @@ import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.Status;
 
-//org.testng.annotations.BeforeSuite;
-//import Pages.AboutYouPage;
-import Pages.HomePage;
-import Pages.LogInPage;
+import geico.tdd.objects.HomePage;
+import geico.tdd.objects.LogInPage;
 import geico.tdd.utils.ReadProperties;
 import io.github.bonigarcia.wdm.WebDriverManager;
 

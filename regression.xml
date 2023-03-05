@@ -6,8 +6,6 @@
 		<classes>
 			<class name="geico.tdd.test.auto.AutoQuoteTest" />
 			<class name="geico.tdd.test.auto.LoginPageTest" />
-
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

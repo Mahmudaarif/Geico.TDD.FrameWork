@@ -1,5 +1,7 @@
 package geico.tdd.utils;
 
-public class Constant {
+public enum Constant {
+
+	browser, chrome, firefox, edge, safari, url, explicitWait, implicitlyWait, pageloadTime
 
 }

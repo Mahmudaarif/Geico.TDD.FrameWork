@@ -5,17 +5,12 @@
 	<test thread-count="5" name="Test">
 		<groups>
 			<run>
-
 				<exclude name="non-func "></exclude>
 			</run>
 		</groups>
-
-
 		<classes>
 			<class name="geico.tdd.test.auto.AutoQuoteTest" />
 			<class name="geico.tdd.test.auto.LoginPageTest" />
-
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

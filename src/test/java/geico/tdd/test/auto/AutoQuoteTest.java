@@ -10,7 +10,7 @@ import geico.tdd.reporting.Logs;
 
 public class AutoQuoteTest extends BaseClass {
 
-	@Test(enabled = false, groups = "auto")
+	@Test(enabled = true, groups = "auto")
 	public void autoTest() throws InterruptedException {
 
 		homePage.verifyHomePageTitle("The Insurance Savings You Expect");
@@ -31,7 +31,7 @@ public class AutoQuoteTest extends BaseClass {
 
 	}
 
-	@Test(enabled = true, priority = 0, groups = { "auto",
+	@Test(enabled = false, priority = 0, groups = { "auto",
 			"non-func" }, dependsOnMethods = "test", ignoreMissingDependencies = true)
 	public void test1() {
 		Logs.log("Test1");
